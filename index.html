@@ -1,0 +1,1694 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arafat Rahman Rahi — Graphic Designer</title>
+<meta name="description" content="Arafat Rahman Rahi is a self-taught graphic designer in Dhaka, Bangladesh, working in brand identity, event design, and print & social visuals.">
+<!-- Simple inline monogram favicon so the tab icon works with no extra asset file. Swap the href for a real .ico/.png if you have one. -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23050506'/%3E%3Ctext x='32' y='42' font-family='Arial, sans-serif' font-weight='700' font-size='26' fill='%233d5afe' text-anchor='middle'%3EAR%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Arafat Rahman Rahi — Graphic Designer">
+<meta property="og:description" content="Brand identity, event design, and print & social work from Dhaka, Bangladesh.">
+<meta property="og:image" content="Pro_PP.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Arafat Rahman Rahi — Graphic Designer">
+<meta name="twitter:description" content="Brand identity, event design, and print & social work from Dhaka, Bangladesh.">
+<meta name="twitter:image" content="Pro_PP.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+
+  :root{
+    --bg:        #050506;
+    --bg-alt:    #0a0a0d;
+    --surface:   #0e0f13;
+    --text:      #f1f2f0;
+    --text-muted:#a3a4ad;
+    --text-dim:  #64656e;
+    --line:      rgba(245,245,245,0.13);
+    --hair:      rgba(245,245,245,0.09);
+    --grid-ambient: rgba(245,245,245,0.04);
+    --grid-spot:    rgba(140,160,255,0.85);
+    --blue:      #3d5afe;
+    --blue-soft: #93a3ff;
+    --on-blue:   #fff;
+    --shadow:    rgba(0,0,0,0.5);
+
+    --grid-size: 56px;
+    --mx: 50%;
+    --my: 40%;
+    --maxw: 1440px;
+  }
+
+  html[data-theme="light"]{
+    --bg:        #f1f2f0;
+    --bg-alt:    #ffffff;
+    --surface:   #ffffff;
+    --text:      #0b0b0d;
+    --text-muted:#55565c;
+    --text-dim:  #8b8c92;
+    --line:      rgba(11,11,13,0.13);
+    --hair:      rgba(11,11,13,0.1);
+    --grid-ambient: rgba(11,11,13,0.05);
+    --grid-spot:    rgba(61,90,254,0.8);
+    --blue:      #3d5afe;
+    --blue-soft: #5670ff;
+    --on-blue:   #fff;
+    --shadow:    rgba(11,11,13,0.12);
+  }
+
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; overflow-x:hidden; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter', -apple-system, sans-serif;
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    transition: background 0.4s ease, color 0.4s ease;
+    overflow-x:hidden;
+    width:100%;
+  }
+  ::selection{ background:var(--blue); color:#fff; }
+
+  h1,h2,h3,.display{
+    font-family:'Bricolage Grotesque', sans-serif;
+    font-weight:600;
+    letter-spacing:-0.02em;
+    line-height:1.02;
+    margin:0;
+  }
+
+  a{ color:inherit; text-decoration:none; }
+  img{ max-width:100%; display:block; }
+  svg{ display:block; }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important; scroll-behavior:auto !important; }
+  }
+
+  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 48px; }
+  @media (max-width:720px){ .wrap{ padding:0 22px; } }
+
+
+  .grid-ambient{
+    background-image:
+      linear-gradient(var(--grid-ambient) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-ambient) 1px, transparent 1px);
+    background-size: var(--grid-size) var(--grid-size);
+    background-position: 0 0;
+  }
+
+  .grid-ambient{ position:relative; isolation:isolate; contain:paint; }
+  .grid-ambient::before{
+    content:"";
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    background-image:
+      linear-gradient(var(--grid-spot) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-spot) 1px, transparent 1px);
+    background-size: var(--grid-size) var(--grid-size);
+    background-position: 0 0;
+    -webkit-mask-image: radial-gradient(340px circle at var(--mx) var(--my), black 0%, rgba(0,0,0,0.55) 32%, rgba(0,0,0,0.18) 60%, transparent 82%);
+    mask-image: radial-gradient(340px circle at var(--mx) var(--my), black 0%, rgba(0,0,0,0.55) 32%, rgba(0,0,0,0.18) 60%, transparent 82%);
+    mix-blend-mode: screen;
+    opacity:0.85;
+    transition: opacity 0.5s ease;
+  }
+
+  .wrap{ position:relative; z-index:1; }
+  header .logo, header .nav-right{ position:relative; z-index:1; }
+  footer .footer-row{ position:relative; z-index:1; }
+  html[data-theme="light"] .grid-ambient::before{ mix-blend-mode:multiply; opacity:0.7; }
+  @media (hover:none), (pointer:coarse){ .grid-ambient::before{ display:none; } }
+  @media (prefers-reduced-motion: reduce){ .grid-ambient::before{ display:none; } }
+
+  .cursor-dot{
+    position:fixed; top:0; left:0; width:8px; height:8px; border-radius:50%;
+    background:var(--blue); z-index:80; pointer-events:none;
+    transform:translate(-50%,-50%);
+    transition: width 0.22s cubic-bezier(.16,1,.3,1), height 0.22s cubic-bezier(.16,1,.3,1),
+                background 0.22s ease, border-color 0.22s ease;
+  }
+  .cursor-dot.hover{ width:36px; height:36px; background:transparent; border:1.5px solid var(--blue-soft); }
+  @media (hover:none), (pointer:coarse){ .cursor-dot{ display:none; } }
+
+  /* ---------- nav ---------- */
+  header{
+    position:fixed; top:0; left:0; right:0; z-index:70;
+    display:flex; align-items:center; justify-content:space-between;
+    gap:20px;
+    padding:26px 48px;
+    color:var(--text);
+    transition: background 0.35s ease, color 0.35s ease, border-color 0.35s ease;
+    border-bottom:1px solid transparent;
+  }
+  header.solid{
+    background:color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  @media (max-width:720px){ header{ padding:20px 22px; } }
+
+  .logo{ font-family:'Bricolage Grotesque', sans-serif; font-weight:700; font-size:1.15rem; letter-spacing:0.02em; white-space:nowrap; }
+  .logo .dot{ color:var(--blue-soft); }
+  .nav-right{ display:flex; align-items:center; gap:28px; }
+  nav.links{ display:flex; gap:34px; font-size:0.92rem; }
+  nav.links a{ opacity:0.82; transition:opacity 0.2s ease; }
+  nav.links a:hover{ opacity:1; }
+  .nav-toggle{ display:none; background:none; border:0; color:inherit; font-size:1.4rem; cursor:pointer; }
+
+  .theme-toggle{
+    display:flex; align-items:center; justify-content:center;
+    width:36px; height:36px; border-radius:50%;
+    border:1px solid var(--line); background:transparent; color:var(--text);
+    cursor:pointer; transition:border-color 0.2s ease, background 0.2s ease;
+    flex-shrink:0;
+  }
+  .theme-toggle:hover{ border-color:var(--blue-soft); }
+  .theme-toggle svg{ width:16px; height:16px; }
+  .theme-toggle .icon-moon{ display:none; }
+  html[data-theme="light"] .theme-toggle .icon-sun{ display:none; }
+  html[data-theme="light"] .theme-toggle .icon-moon{ display:block; }
+
+  .nav-overlay{ display:none; }
+  .nav-close-btn{ display:none; }
+  @media (max-width:800px){
+    nav.links{
+      position:fixed; inset:0 0 0 auto; width:min(78vw,320px); height:100vh;
+      background:var(--bg-alt); flex-direction:column; justify-content:center; gap:26px;
+      padding:0 42px; transform:translateX(100%); transition:transform 0.4s ease;
+      border-left:1px solid var(--line); z-index:75;
+    }
+    nav.links.open{ transform:translateX(0); }
+    .nav-toggle{ display:block; }
+
+    /* Tapping the dimmed area beside the menu (negative space) closes it too */
+    .nav-overlay{
+      display:block; position:fixed; inset:0; z-index:74;
+      background:rgba(3,3,4,0.5); opacity:0; pointer-events:none; transition:opacity 0.3s ease;
+    }
+    .nav-overlay.open{ opacity:1; pointer-events:auto; }
+
+    .nav-close-btn{
+      display:flex; align-items:center; justify-content:center;
+      position:absolute; top:32px; left:42px; z-index:2;
+      width:38px; height:38px; border-radius:50%;
+      border:1px solid var(--line); background:transparent; color:var(--text); cursor:pointer;
+    }
+    .nav-close-btn:hover{ border-color:var(--blue-soft); }
+    .nav-close-btn svg{ width:16px; height:16px; }
+  }
+
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative; z-index:1;
+    min-height:100vh;
+    display:flex; align-items:flex-end;
+    padding:150px 0 70px;
+    overflow:hidden;
+  }
+  .hero > .hero-glow{
+    content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
+    background: radial-gradient(ellipse at 22% 8%, rgba(61,90,254,0.16), transparent 55%);
+  }
+  .hero-grid{ width:100%; display:grid; grid-template-columns:1.3fr 0.8fr; align-items:end; gap:64px; }
+  @media (max-width:900px){ .hero-grid{ grid-template-columns:1fr; } }
+
+  .hero h1{ font-size:clamp(2.6rem, 7.6vw, 6.4rem); text-transform:uppercase; max-width:16ch; }
+
+  .hero h1 .scramble-line{ display:block; font-variant-numeric:tabular-nums; }
+
+  .hero-role{
+    display:inline-flex; align-items:center; gap:9px;
+    height:38px; padding:0 18px 0 14px; margin:22px 0 16px;
+    border:1px solid var(--line); border-radius:999px;
+    font-family:'IBM Plex Mono', monospace; font-size:0.82rem; color:var(--blue-soft);
+    white-space:nowrap;
+    opacity:0; animation: fadein 0.7s ease 0.9s forwards;
+  }
+  .hero-role .dot{ width:6px; height:6px; border-radius:50%; background:var(--blue-soft); flex-shrink:0; }
+  .typed-cursor{
+    display:inline-block; width:2px; height:1em; background:var(--blue-soft);
+    margin-left:1px; vertical-align:text-bottom; animation: blink 1s step-end infinite;
+  }
+  @keyframes blink{ 0%,100%{ opacity:1; } 50%{ opacity:0; } }
+
+  .hero-badges{ display:flex; flex-wrap:wrap; gap:10px; margin-bottom:30px; opacity:0; animation: fadein 0.7s ease 1.05s forwards; }
+  .hero-badges .badge{
+    font-family:'IBM Plex Mono', monospace; font-size:0.72rem; letter-spacing:0.02em;
+    color:var(--text-muted); border:1px solid var(--line); border-radius:999px; padding:6px 14px;
+  }
+
+  .hero-cta{ display:flex; gap:14px; flex-wrap:wrap; opacity:0; animation: fadein 0.7s ease 1.2s forwards; }
+  @keyframes fadein{ from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:translateY(0);} }
+
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:14px 26px; border-radius:2px;
+    font-size:0.92rem; font-weight:500;
+    border:1px solid currentColor;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    white-space:nowrap;
+  }
+  /* Native <button> elements come with a browser-default (often white) background —
+     reset it explicitly so .btn-ghost buttons don't show through in dark mode. */
+  button.btn{ background:transparent; font:inherit; appearance:none; -webkit-appearance:none; cursor:pointer; }
+  .btn-primary{ background:var(--blue); border-color:var(--blue); color:#fff; }
+  .btn-primary:hover{ background:#5670ff; border-color:#5670ff; }
+  .btn-ghost{ background:transparent; color:var(--text); }
+  .btn-ghost:hover{ background:var(--hair); }
+
+  .hero-scroll{
+    display:flex; align-items:center; gap:10px; margin-top:56px;
+    font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--text-dim);
+    opacity:0; animation: fadein 0.7s ease 1.35s forwards;
+  }
+  .hero-scroll .line{ width:30px; height:1px; background:var(--text-dim); }
+
+  .hero-status{
+    display:inline-flex; align-items:center; gap:10px; margin-top:26px;
+    font-size:0.85rem; color:var(--text-muted);
+    opacity:0; animation: fadein 0.7s ease 1.3s forwards;
+  }
+  .pulse-dot{
+    position:relative; width:8px; height:8px; border-radius:50%; background:#4ade80; flex-shrink:0;
+  }
+  .pulse-dot::after{
+    content:""; position:absolute; inset:-4px; border-radius:50%; border:1px solid #4ade80;
+    animation: pulse-ring 2s cubic-bezier(.4,0,.6,1) infinite;
+  }
+  @keyframes pulse-ring{ 0%{ transform:scale(0.6); opacity:0.9; } 100%{ transform:scale(1.8); opacity:0; } }
+  @media (prefers-reduced-motion: reduce){ .pulse-dot::after{ animation:none; } }
+
+  .hero-portrait{ position:relative; opacity:0; animation: fadein 1s ease 0.35s forwards; }
+  @media (max-width:900px){ .hero-portrait{ max-width:240px; margin:0 0 8px; } }
+  .portrait-frame{ position:relative; aspect-ratio:3/4; overflow:hidden; border:1px solid var(--line); background:var(--surface); }
+  .portrait-photo{
+    position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
+    filter:grayscale(0.15) contrast(1.04);
+  }
+  .portrait-frame::after{
+    content:""; position:absolute; inset:0; pointer-events:none;
+    background:linear-gradient(180deg, transparent 60%, rgba(0,0,0,0.5) 100%);
+  }
+  .portrait-frame::before{
+    content:""; position:absolute; top:16px; left:16px; width:22px; height:22px;
+    border-top:1px solid var(--blue-soft); border-left:1px solid var(--blue-soft);
+    z-index:2; opacity:0.9;
+  }
+  .portrait-caption{ position:absolute; left:16px; bottom:14px; z-index:2; font-size:0.78rem; color:#f1f2f0; letter-spacing:0.01em; }
+  .portrait-caption span{ display:block; color:#c7c8ce; font-size:0.72rem; margin-top:2px; }
+
+  /* ---------- section shell ---------- */
+  section{ position:relative; z-index:1; padding:120px 0; background-color:var(--bg); }
+  section.alt{ background-color:var(--bg-alt); }
+  @media (max-width:720px){ section{ padding:80px 0; } }
+  .section-head{ display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:60px; flex-wrap:wrap; }
+  .section-head h2{ font-size:clamp(1.9rem, 4vw, 3rem); }
+  .section-head p{ max-width:360px; color:var(--text-muted); font-size:0.98rem; }
+
+  /* ---------- about (+ merged experience) ---------- */
+  .about-grid{ display:grid; grid-template-columns:1.05fr 0.95fr; gap:64px; }
+  @media (max-width:840px){ .about-grid{ grid-template-columns:1fr; } }
+  .about-body p{ color:var(--text-muted); margin:0 0 18px; max-width:56ch; }
+  .fact-list{ list-style:none; margin:28px 0 0; padding:24px 0 0; border-top:1px solid var(--hair); display:grid; gap:12px; }
+  .fact-list li{ display:flex; justify-content:space-between; gap:12px; font-size:0.92rem; color:var(--text-muted); max-width:440px; }
+  .fact-list b{ color:var(--text); font-weight:500; }
+
+  .about-timeline h3{
+    font-size:0.8rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--blue);
+    font-weight:600; margin-bottom:22px; font-family:'IBM Plex Mono', monospace;
+  }
+  .timeline{ display:grid; gap:0; border-top:1px solid var(--hair); }
+  .tl-row{ display:grid; grid-template-columns:118px 1fr; gap:22px; padding:22px 0; border-bottom:1px solid var(--hair); }
+  @media (max-width:520px){ .tl-row{ grid-template-columns:1fr; gap:6px; } }
+  .tl-when{ color:var(--text-dim); font-size:0.85rem; }
+  .tl-what h4{ font-family:'Bricolage Grotesque', sans-serif; font-size:1rem; font-weight:600; margin-bottom:5px; }
+  .tl-what p{ margin:0; color:var(--text-muted); font-size:0.9rem; max-width:60ch; }
+
+  /* ---------- selected work ---------- */
+  .work-grid{ display:grid; grid-template-columns:repeat(6,1fr); gap:22px; }
+  @media (max-width:900px){
+    .work-grid{ grid-template-columns:1fr; }
+    .card, .card.feature{ grid-column: span 1; }
+  }
+  @media (max-width:520px){ .work-grid{ gap:16px; } }
+  .card{
+    grid-column:span 3;
+    border:1px solid var(--line);
+    background:var(--surface);
+    overflow:hidden;
+    display:flex; flex-direction:column;
+    transition: transform 0.35s cubic-bezier(.16,1,.3,1), box-shadow 0.35s ease, border-color 0.35s ease;
+  }
+  .card:hover{ transform:translateY(-4px); box-shadow:0 20px 44px var(--shadow); border-color:rgba(61,90,254,0.4); }
+  .card.feature{ grid-column:span 6; flex-direction:row; }
+  @media (max-width:900px){ .card.feature{ flex-direction:column; } }
+  .card-visual{ position:relative; aspect-ratio:4/3; overflow:hidden; background:#0e0f13; }
+  .card.feature .card-visual{ flex:1.1; aspect-ratio:auto; }
+  .card-visual img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition: transform 0.5s cubic-bezier(.16,1,.3,1); }
+  .card:hover .card-visual img{ transform:scale(1.045); }
+  .card-visual .idx{
+    position:absolute; top:16px; left:16px; font-size:0.78rem; color:#fff; opacity:0.9; font-weight:500; z-index:2;
+    padding:3px 8px; border:1px solid rgba(255,255,255,0.4);
+  }
+  .card-visual::after{
+    content:""; position:absolute; inset:0; z-index:1;
+    background:linear-gradient(0deg, rgba(0,0,0,0.5) 0%, transparent 45%);
+    opacity:0; transition:opacity 0.3s ease;
+  }
+  .card:hover .card-visual::after{ opacity:1; }
+  .card-view{
+    position:absolute; left:16px; bottom:14px; z-index:2; color:#fff; font-size:0.8rem;
+    opacity:0; transform:translateY(6px); transition:opacity 0.3s ease, transform 0.3s ease;
+  }
+  .card:hover .card-view{ opacity:1; transform:translateY(0); }
+  .card-body{ padding:22px 24px 26px; flex:1; }
+  .card.feature .card-body{ flex:0.9; display:flex; flex-direction:column; justify-content:center; padding:36px 40px; }
+  .card-body h3{ font-size:1.18rem; font-weight:600; margin-bottom:6px; }
+  .card.feature .card-body h3{ font-size:1.7rem; }
+  .card-cat{ font-size:0.8rem; color:var(--blue); font-weight:500; margin-bottom:10px; }
+  .card-body p{ font-size:0.92rem; color:var(--text-muted); margin:0; }
+
+  .tpl-item{
+    position:relative; flex:0 0 auto; width:min(58vw,340px); aspect-ratio:1/1;
+    border:1px solid var(--line); border-radius:20px; background:var(--surface); overflow:hidden; cursor:pointer;
+    
+  }
+  .tpl-item img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:transform 0.5s cubic-bezier(.16,1,.3,1); }
+  .tpl-item:hover img{ transform:scale(1.06); }
+  .tpl-item::after{ content:""; position:absolute; inset:0; z-index:1; background:linear-gradient(0deg, rgba(0,0,0,0.55) 0%, transparent 50%); }
+  .tpl-tagline{
+    position:absolute; left:14px; bottom:14px; z-index:2; color:#fff; font-size:0.76rem;
+    padding:4px 10px; border-radius:999px; border:1px solid rgba(255,255,255,0.4); background:rgba(0,0,0,0.3); backdrop-filter:blur(3px);
+  }
+  .tpl-pdf-thumb{
+    position:absolute; inset:0; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:6px;
+    background:linear-gradient(160deg,#171820,#0e0f13); color:var(--text-muted); font-family:'IBM Plex Mono',monospace; font-size:0.78rem;
+  }
+  .tpl-pdf-thumb svg{ width:30px; height:30px; color:var(--blue-soft); }
+
+  /* ---------- selected work: category rows ---------- */
+  .work-rows{ display:grid; grid-template-columns:minmax(0,1fr); gap:60px; }
+  .work-row{ min-width:0; max-width:100%; }
+  .work-row-head{ display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:18px; padding-bottom:14px; border-bottom:1px solid var(--hair); }
+  .work-row-head h3{ font-size:1.2rem; display:flex; align-items:baseline; gap:12px; }
+  .work-row-head h3 span{ font-family:'IBM Plex Mono',monospace; font-size:0.74rem; color:var(--text-dim); font-weight:400; }
+  .row-marquee{
+    overflow:hidden; width:100%;
+    -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.35) 6%,#000 20%,#000 80%,rgba(0,0,0,0.35) 94%,transparent 100%);
+    mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.35) 6%,#000 20%,#000 80%,rgba(0,0,0,0.35) 94%,transparent 100%);
+  }
+  .row-track{ display:flex; align-items:center; gap:26px; width:max-content; padding:30px 0 34px; animation:tpl-scroll 40s linear infinite; }
+  .row-track.reverse{ animation-direction:reverse; }
+  .row-track.paused{ animation-play-state:paused; }
+  @keyframes tpl-scroll{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
+  .row-track .tpl-item{ width:min(58vw,340px); will-change:transform, opacity; }
+  .row-track .tpl-tagline{ max-width:calc(100% - 28px); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  @media (prefers-reduced-motion: reduce){ .row-track{ animation:none; } .row-marquee{ overflow-x:auto; } }
+
+  /* ---------- pdf / template viewer modals (shared look) ---------- */
+  .pdf-modal, .tpl-modal{
+    position:fixed; inset:0; z-index:200; display:flex; align-items:center; justify-content:center;
+    opacity:0; visibility:hidden; pointer-events:none; transition:opacity 0.3s ease, visibility 0.3s;
+  }
+  .pdf-modal.open, .tpl-modal.open{ opacity:1; visibility:visible; pointer-events:auto; }
+  .pdf-modal-backdrop, .tpl-modal-backdrop{
+    position:absolute; inset:0; background:rgba(3,3,4,0.86); backdrop-filter:blur(4px);
+  }
+
+  .pdf-modal-card{
+    position:relative; z-index:1; width:min(960px,90vw); height:min(80vh,840px);
+    background:var(--surface); border:1px solid var(--line); box-shadow:0 30px 80px rgba(0,0,0,0.5);
+  }
+  .pdf-modal-card iframe{ width:100%; height:100%; border:0; background:#fff; display:block; }
+  .pdf-close-btn{
+    position:absolute; left:50%; top:100%; right:auto; bottom:auto; z-index:5;
+    /* Sits outside the card, centered below it, clear of the PDF itself. */
+    transform:translate(-50%, 18px);
+    width:42px; height:42px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    border:1px solid var(--line); background:rgba(14,15,19,0.7); color:#fff; cursor:pointer;
+  }
+  .pdf-close-btn:hover{ border-color:var(--blue-soft); }
+  .pdf-close-btn svg{ width:18px; height:18px; }
+  /* Not enough room to float it outside the card on short viewports — fall
+     back to sitting inside the corner instead of clipping off-screen. */
+  @media (max-width:760px), (max-height:640px){
+    .pdf-close-btn{ top:14px; left:auto; right:14px; transform:none; }
+  }
+
+  /* ---------- template viewer ---------- */
+  .tpl-close-btn{
+    position:absolute; top:18px; right:20px; z-index:5;
+    width:38px; height:38px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    border:1px solid var(--line); background:rgba(14,15,19,0.7); color:var(--text); cursor:pointer;
+  }
+  .tpl-close-btn:hover{ border-color:var(--blue-soft); }
+  .tpl-close-btn svg{ width:18px; height:18px; }
+
+  .tpl-modal-stage{
+    position:relative; z-index:1; width:100%; height:100%; overflow:hidden;
+    display:flex; align-items:center; justify-content:center;
+    gap:clamp(52px, 3.6vw, 64px); padding:18px 20px 44px;
+    touch-action: pan-y;
+    -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.35) 4%,#000 14%,#000 86%,rgba(0,0,0,0.35) 96%,transparent 100%);
+    mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.35) 4%,#000 14%,#000 86%,rgba(0,0,0,0.35) 96%,transparent 100%);
+  }
+
+  /* A fixed, near-full-height portrait "invisible rectangle" every design is
+     fit into with object-fit:contain — same box for every project, whatever
+     its own ratio, so nothing is ever cropped and nothing shifts position
+     between projects. Sized like a phone story: tall, not wide. */
+  .tpl-frame-box{
+    position:relative; height:min(88vh,820px); width:auto; aspect-ratio:9/16;
+    flex:0 0 auto; display:flex; align-items:center; justify-content:center;
+    will-change:transform, opacity;
+  }
+  /* Side previews: one consistent size on both sides (matching how a real
+     story tray reads — the further ones aren't shrunk further, they just get
+     clipped by the viewport edge, via overflow:hidden on the stage above). */
+  .tpl-slot{
+    flex:0 0 auto; height:min(35vh,300px); width:auto; aspect-ratio:9/16;
+    cursor:pointer; overflow:hidden;
+    border:1px solid var(--line); border-radius:14px; background:rgba(255,255,255,0.02);
+    display:flex; align-items:center; justify-content:center;
+    transition:opacity 0.25s ease, border-color 0.25s ease;
+    will-change:transform, opacity;
+  }
+  .tpl-slot-near{ opacity:0.9; }
+  .tpl-slot-near:hover{ opacity:1; border-color:rgba(61,90,254,0.4); }
+  .tpl-slot-far{ opacity:0.75; }
+  .tpl-slot-far:hover{ opacity:0.95; border-color:rgba(61,90,254,0.35); }
+  .tpl-slot-inner{ position:relative; width:100%; height:100%; display:flex; align-items:center; justify-content:center; }
+  /* Full, uncropped thumbnail of the actual design — same fit rule as the main view. */
+  .tpl-slot-inner img{ max-width:100%; max-height:100%; object-fit:contain; display:block; }
+  .tpl-slot-label{
+    position:absolute; left:8px; bottom:8px; right:8px; font-size:0.65rem; color:#fff;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  .tpl-slot-far .tpl-slot-label{ display:none; }
+  @media (max-width:900px){
+    .tpl-slot-far{ display:none; }
+    .tpl-slot-near{ height:min(30vh,220px); }
+  }
+  @media (max-width:640px){ .tpl-slot-near{ display:none; } }
+
+  .tpl-main-frame{ position:relative; width:100%; height:100%; }
+  /* Two stacked layers so switching images within one project can bring the new
+     one from behind to front, rather than a flat swap. */
+  .tpl-layer{
+    position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    transition:transform 0.45s cubic-bezier(.16,1,.3,1), opacity 0.4s ease;
+    opacity:0; transform:scale(0.85) translateY(10px); z-index:1; pointer-events:none;
+  }
+  .tpl-layer.tpl-layer-active{ opacity:1; transform:scale(1) translateY(0) translateX(0); z-index:2; pointer-events:auto; }
+  .tpl-layer.tpl-layer-exit{ opacity:0; transform:scale(1.06) translateY(-8px); z-index:1; }
+  /* Instagram-story-style directional slide, used specifically for switching
+     between projects (as opposed to images within one project). */
+  .tpl-layer.tpl-layer-enter-right{ opacity:0; transform:translateX(46px) scale(0.96); }
+  .tpl-layer.tpl-layer-enter-left{ opacity:0; transform:translateX(-46px) scale(0.96); }
+  .tpl-layer.tpl-layer-exit-left{ opacity:0; transform:translateX(-46px) scale(0.96); z-index:1; }
+  .tpl-layer.tpl-layer-exit-right{ opacity:0; transform:translateX(46px) scale(0.96); z-index:1; }
+  /* Fit every design into the invisible rectangle without cropping a single pixel. */
+  .tpl-layer img{ max-width:100%; max-height:100%; object-fit:contain; border-radius:10px; box-shadow:0 20px 60px rgba(0,0,0,0.5); }
+  .tpl-layer iframe{ width:100%; height:100%; border:1px solid var(--line); border-radius:10px; background:#fff; }
+
+  /* Small, unobtrusive chevrons that sit centered in the gap between the
+     center card and the next side preview — sized and offset so they never
+     touch either card, however wide the gap gets. */
+  .tpl-nav{
+    width:32px; height:32px; border-radius:50%; border:1px solid var(--line); background:rgba(14,15,19,0.65);
+    color:var(--text); font-size:0.95rem; cursor:pointer; flex-shrink:0; display:flex; align-items:center; justify-content:center;
+    transition:border-color 0.2s ease, background 0.2s ease; z-index:3;
+  }
+  .tpl-nav:hover{ border-color:var(--blue-soft); }
+  .tpl-nav-prev-img{ position:absolute; top:50%; left:0; transform:translate(calc(-100% - 12px), -50%); }
+  .tpl-nav-next-img{ position:absolute; top:50%; right:0; transform:translate(calc(100% + 12px), -50%); }
+
+  .tpl-caption{
+    position:absolute; left:50%; bottom:12px; transform:translateX(-50%); z-index:3; text-align:center;
+    font-size:0.85rem; color:var(--text); display:flex; align-items:center; gap:10px; pointer-events:none;
+  }
+  .tpl-caption span{ color:var(--text-dim); font-family:'IBM Plex Mono',monospace; font-size:0.76rem; }
+  .tpl-hint{
+    position:absolute; top:22px; left:24px; z-index:3; font-family:'IBM Plex Mono',monospace; font-size:0.72rem;
+    color:var(--text-dim); pointer-events:none;
+  }
+  @media (max-width:900px){
+    .tpl-modal-stage{ gap:clamp(44px,4.4vw,58px); padding:16px 16px 40px; }
+    .tpl-frame-box{ height:min(82vh,700px); }
+    .tpl-nav{ width:28px; height:28px; font-size:0.8rem; }
+    .tpl-nav-prev-img{ transform:translate(calc(-100% - 8px), -50%); }
+    .tpl-nav-next-img{ transform:translate(calc(100% + 8px), -50%); }
+    .tpl-hint{ display:none; }
+  }
+  @media (max-width:640px){
+    .tpl-frame-box{ height:min(80vh,620px); }
+  }
+
+  /* ---------- case study ---------- */
+  #case .section-head p{ color:var(--text-muted); }
+  .case-top{ display:grid; grid-template-columns:1.2fr 0.8fr; gap:60px; margin-bottom:70px; }
+  @media (max-width:840px){ .case-top{ grid-template-columns:1fr; } }
+  .case-top h3{ font-size:clamp(1.8rem,3.4vw,2.6rem); margin-bottom:18px; }
+  .case-top p{ color:var(--text-muted); max-width:50ch; }
+  .case-visual{
+    aspect-ratio:5/4; position:relative;
+    display:flex; align-items:center; justify-content:center; padding:20px;
+  }
+  .case-visual img{ position:static; width:100%; height:100%; object-fit:contain; }
+  /* Approximates a transparent logo by blending the flat background out.
+     Swap in a real transparent PNG when you have one for a cleaner result. */
+  .logo-fade{ mix-blend-mode:multiply; }
+  html[data-theme="dark"] .logo-fade{ mix-blend-mode:screen; }
+
+  .case-fb-btn{ margin-top:22px; max-width:280px; }
+  .case-fb-icons{ display:flex; align-items:center; gap:10px; flex-shrink:0; }
+  .case-fb-divider{ width:1px; height:22px; background:var(--line); flex-shrink:0; }
+  .case-fb-icons .club-logo-wrap{
+    width:26px; height:26px; border-radius:50%; background:#fff;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .case-fb-icons .club-logo{ width:20px; height:20px; border-radius:50%; object-fit:cover; display:block; }
+
+  .steps{ display:grid; grid-template-columns:repeat(6,1fr); gap:0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  @media (max-width:900px){ .steps{ grid-template-columns:1fr; } }
+  .step{ padding:30px 24px; border-right:1px solid var(--line); }
+  .step:last-child{ border-right:none; }
+  @media (max-width:900px){ .step{ border-right:none; border-bottom:1px solid var(--line); } }
+  .step .num{ font-size:0.82rem; color:var(--blue-soft); font-weight:600; margin-bottom:12px; }
+  .step h4{ font-family:'Bricolage Grotesque',sans-serif; font-size:1.02rem; font-weight:600; margin:0 0 8px; }
+  .step p{ font-size:0.86rem; color:var(--text-muted); margin:0; }
+
+  /* ---------- skills / tools ---------- */
+  .skill-grid{ display:grid; grid-template-columns:repeat(5,1fr); column-gap:32px; row-gap:48px; align-items:start; }
+  @media (max-width:1080px){ .skill-grid{ grid-template-columns:repeat(3,1fr); column-gap:36px; } }
+  @media (max-width:840px){ .skill-grid{ grid-template-columns:repeat(2,1fr); column-gap:36px; row-gap:44px; } }
+  @media (max-width:520px){ .skill-grid{ grid-template-columns:1fr; row-gap:38px; } }
+  .skill-col h3{ font-size:1rem; font-weight:600; margin:0 0 20px; padding-bottom:12px; border-bottom:1px solid var(--hair); }
+  .skill-col ul{ list-style:none; margin:0; padding:0; display:grid; gap:13px; }
+  .skill-col li{ font-size:0.93rem; color:var(--text-muted); line-height:1.4; }
+
+  .tool-item{ margin-bottom:24px; }
+  .tool-item:last-child{ margin-bottom:0; }
+  .tool-top{ display:flex; align-items:center; justify-content:space-between; margin-bottom:11px; }
+  .tool-left{ display:flex; align-items:center; gap:10px; }
+  .tool-icon{ width:26px; height:26px; border-radius:6px; flex-shrink:0; }
+  .tool-name{ font-size:0.93rem; color:var(--text); font-weight:500; }
+  .tool-meter{ display:flex; align-items:center; justify-content:space-between; gap:14px; padding-left:36px; }
+  .tool-meter.lang-meter{ padding-left:0; margin-top:2px; }
+  .tool-level-label{ font-family:'IBM Plex Mono', monospace; font-size:0.76rem; color:var(--text-muted); }
+  .tool-dots{ display:flex; align-items:center; gap:7px; flex-shrink:0; }
+  .tool-dots .dot{ width:9px; height:9px; border-radius:50%; border:1.5px solid var(--blue-soft); background:transparent; }
+  .tool-dots .dot.filled{ background:var(--blue-soft); }
+
+  /* ---------- contact ---------- */
+  .contact-top h2{ font-size:clamp(2.2rem,5vw,3.6rem); max-width:14ch; margin-bottom:20px; }
+  .contact-top h2 .scramble-line{ display:block; }
+  .contact-top p{ color:var(--text-muted); max-width:48ch; margin-bottom:50px; }
+  .contact-links{ display:grid; grid-template-columns:repeat(5,1fr); gap:14px; }
+  @media (max-width:1000px){ .contact-links{ grid-template-columns:repeat(3,1fr); gap:16px; } }
+  @media (max-width:640px){ .contact-links{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:420px){ .contact-links{ grid-template-columns:1fr; } }
+  .contact-link{
+    display:flex; align-items:center; gap:12px; padding:18px 16px;
+    border:1px solid var(--line); background:var(--surface);
+    transition: border-color 0.25s ease, transform 0.25s ease, background 0.25s ease;
+    min-width:0;
+  }
+  .contact-link .cl-text{ min-width:0; }
+  .contact-link .cl-text strong{ white-space:nowrap; }
+  .contact-link .cl-text span{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .contact-link:hover{ border-color:rgba(61,90,254,0.4); transform:translateY(-3px); }
+  .contact-link .ic{ width:22px; height:22px; flex-shrink:0; }
+  .contact-link .cl-text strong{ display:block; font-size:0.92rem; font-weight:600; }
+  .contact-link .cl-text span{ display:block; font-size:0.78rem; color:var(--text-dim); font-family:'IBM Plex Mono', monospace; margin-top:2px; }
+
+  footer{ background-color:var(--bg); color:var(--text-dim); padding:26px 0 40px; font-size:0.82rem; border-top:1px solid var(--hair); position:relative; }
+  .footer-row{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+
+  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible{
+    outline:2px solid var(--blue); outline-offset:3px;
+  }
+
+  /* ---------- back to top ---------- */
+  .back-to-top{
+    position:fixed; right:22px; bottom:22px; z-index:60;
+    width:44px; height:44px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    background:var(--surface); border:1px solid var(--line); color:var(--text);
+    cursor:pointer; box-shadow:0 8px 24px var(--shadow);
+    opacity:0; visibility:hidden; transform:translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s, border-color 0.2s ease;
+  }
+  .back-to-top.visible{ opacity:1; visibility:visible; transform:translateY(0); }
+  .back-to-top:hover{ border-color:var(--blue-soft); }
+  .back-to-top svg{ width:18px; height:18px; }
+  @media (max-width:720px){ .back-to-top{ right:16px; bottom:16px; width:40px; height:40px; } }
+</style>
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+
+<header id="siteHeader">
+  <a href="#home" class="logo">ARR<span class="dot">.</span></a>
+  <div class="nav-right">
+    <nav class="links" id="navLinks">
+      <button type="button" class="nav-close-btn" id="navBackBtn" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#case">Case study</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-overlay" id="navOverlay"></div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+    </button>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<section class="hero grid-ambient" id="home">
+  <div class="hero-glow"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <h1 id="heroHeadline">
+        <span class="scramble-line" data-text="I turn"></span>
+        <span class="scramble-line" data-text="ideas into"></span>
+        <span class="scramble-line" data-text="visuals."></span>
+      </h1>
+
+      <div class="hero-role" id="heroRole">
+        <span class="dot"></span>
+        <span id="typedRole"></span><span class="typed-cursor"></span>
+      </div>
+
+      <div class="hero-badges">
+        <span class="badge">Branding</span>
+        <span class="badge">Event Identity</span>
+        <span class="badge">Print &amp; Social</span>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">View selected work</a>
+        <a href="#contact" class="btn btn-ghost">Start a project</a>
+        <!-- Swap the PDF filename below (and in the modal's download link) once your CV sits alongside this HTML file -->
+        <button type="button" id="viewCvBtn" class="btn btn-ghost">View CV</button>
+      </div>
+
+      <div class="hero-status">
+        <span class="pulse-dot"></span>
+        Currently open to design internships &amp; freelance work
+      </div>
+
+      <div class="hero-scroll"><span class="line"></span>Scroll</div>
+    </div>
+
+    <div class="hero-portrait">
+      <div class="portrait-frame">
+        <img class="portrait-photo" src="Pro_PP.png" alt="Arafat Rahman Rahi">
+        <div class="portrait-caption">Arafat Rahman Rahi<span>Designer, Dhaka</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="grid-ambient">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="scramble-heading">About</h2>
+      <p>A student learning graphic design the hard way — by making things, breaking them, and making them again.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-body">
+        <p>I got into design almost by accident — building posters for a school event because nobody else wanted to, and realizing halfway through that I actually liked figuring out why one layout worked and another didn't. Everything since has been self-taught: Canva first, then Photoshop and Illustrator, learned through tutorials, trial and error, and a lot of projects nobody paid me for.</p>
+        <p>Most of what I know comes from real situations — directing a school festival's entire visual identity in a few weeks, or a club needing a poster by Thursday. That pressure taught me more about design decisions than any course could. Volunteering with Red Crescent Youth keeps the work grounded in something more than aesthetics.</p>
+        <p>I'm still early in this. But I've shipped real work for a real school community, led a creative team, and I take the outcome seriously even when the deadline is tight.</p>
+        <ul class="fact-list">
+          <li><span>Based in</span> <b>Dhaka, Bangladesh</b></li>
+          <li><span>Currently</span> <b>a student</b></li>
+          <!-- TODO: fill in once admission is confirmed -->
+          <li><span>Institution</span> <b>Government Science College, Tejgaon, Dhaka</b></li>
+          <li><span>Role</span> <b>Former President, TGHS Arts & Crafts Club</b></li>
+          <li><span>Practice</span> <b>Self-taught, project-driven</b></li>
+        </ul>
+      </div>
+      <div class="about-timeline">
+        <h3>Experience</h3>
+        <div class="timeline">
+          <div class="tl-row">
+            <div class="tl-when">2025 — 2026</div>
+            <div class="tl-what">
+              <h4>President, TGHS Arts & Crafts Club</h4>
+              <p>Lead a student creative team — organizing exhibitions and workshops, and directing the visual output for club events.</p>
+            </div>
+          </div>
+          <div class="tl-row">
+            <div class="tl-when">2025</div>
+            <div class="tl-what">
+              <h4>Director, TGHS Trivium Festival</h4>
+              <p>Took full ownership of the festival's visual identity, from initial concept through printed and digital applications.</p>
+            </div>
+          </div>
+          <div class="tl-row">
+            <div class="tl-when">2025</div>
+            <div class="tl-what">
+              <h4>SSC — Tejgaon Government High School</h4>
+              <p>Completed the Secondary School Certificate examination with a GPA of 5.00.</p>
+            </div>
+          </div>
+          <div class="tl-row">
+            <div class="tl-when">2022 — Ongoing</div>
+            <div class="tl-what">
+              <h4>Volunteer, Red Crescent Youth</h4>
+              <p>Design support for humanitarian campaigns, community awareness drives, and emergency-preparedness materials.</p>
+            </div>
+          </div>
+          <div class="tl-row">
+            <div class="tl-when">2022 — Present</div>
+            <div class="tl-what">
+              <h4>Self-directed study</h4>
+              <p>Learning visual design, branding, and typography through practical projects rather than formal coursework.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="alt grid-ambient">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="scramble-heading">Selected work</h2>
+      <p>A short list, on purpose — real projects for a real school community. Not every project is shown here due to some private client work; everything included belongs to me.</p>
+    </div>
+  </div>
+  <div class="wrap"><div class="work-rows" id="workRows"></div></div>
+</section>
+
+<section id="case" class="grid-ambient">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="scramble-heading">Case study: TGHS Trivium Festival</h2>
+      <p>How the school's flagship event got a visual identity that held together end to end.</p>
+    </div>
+
+    <div class="case-top">
+      <div>
+        <h3>One mark, applied everywhere it needed to show up.</h3>
+        <p>The TGHS Trivium Festival needed an identity that could hold together across a stage banner, a t-shirt print, and an Instagram grid — without looking like three different events. This is the project I'd point to first.</p>
+        <a class="contact-link case-fb-btn" href="https://facebook.com/TGHSACC" target="_blank" rel="noopener">
+          <span class="case-fb-icons">
+            <svg class="ic" viewBox="0 0 24 24" fill="#1877F2" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span class="case-fb-divider"></span>
+            <span class="club-logo-wrap"><img class="club-logo" src="TGHSACC.png" alt="TGHS Arts and Crafts Club logo" loading="lazy"></span>
+          </span>
+          <div class="cl-text"><strong>Facebook</strong><span>@TGHSACC</span></div>
+        </a>
+      </div>
+      <div class="case-visual"><img class="logo-fade" src="Trivium.png" alt="TGHS Trivium Festival key visual" loading="lazy"></div>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="num">01</div>
+        <h4>Brief</h4>
+        <p>As Director, I needed a complete identity — logo, banners, apparel, and social assets — in time for the festival's launch.</p>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <h4>Idea</h4>
+        <p>Built the concept around momentum and celebration — a mark that could scale from a small badge to a stage-sized banner.</p>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <h4>Process</h4>
+        <p>Sketched several directions first, then narrowed to digital roughs and tested them against real signage sizes.</p>
+      </div>
+      <div class="step">
+        <div class="num">04</div>
+        <h4>Design development</h4>
+        <p>Refined the mark's geometry, locked a small color system, and paired it with a bold display typeface for legibility at distance.</p>
+      </div>
+      <div class="step">
+        <div class="num">05</div>
+        <h4>Final result</h4>
+        <p>A flexible mark and a small type and color system, with usage rules simple enough for a student team to apply consistently.</p>
+      </div>
+      <div class="step">
+        <div class="num">06</div>
+        <h4>Applications</h4>
+        <p>Carried across entrance banners, event t-shirts, standees, and a full week of social posts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="alt grid-ambient">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="scramble-heading">Skills</h2>
+      <p>What I actually use, grouped by how I use it.</p>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-col">
+        <h3>Tools</h3>
+
+        <div class="tool-item">
+          <div class="tool-top">
+            <div class="tool-left">
+              <svg class="tool-icon" viewBox="0 0 32 32" aria-hidden="true">
+                <rect width="32" height="32" rx="6" fill="#001E36"/>
+                <text x="16" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#31A8FF">Ps</text>
+              </svg>
+              <span class="tool-name">Photoshop</span>
+            </div>
+          </div>
+          <div class="tool-meter">
+            <span class="tool-dots">
+              <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+            </span>
+          </div>
+        </div>
+
+        <div class="tool-item">
+          <div class="tool-top">
+            <div class="tool-left">
+              <svg class="tool-icon" viewBox="0 0 32 32" aria-hidden="true">
+                <rect width="32" height="32" rx="6" fill="#330000"/>
+                <text x="16" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#FF9A00">Ai</text>
+              </svg>
+              <span class="tool-name">Illustrator</span>
+            </div>
+          </div>
+          <div class="tool-meter">
+            <span class="tool-dots">
+              <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </span>
+          </div>
+        </div>
+
+        <div class="tool-item">
+          <div class="tool-top">
+            <div class="tool-left">
+              <img class="tool-icon" src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/canva/default.svg" alt="Canva" width="26" height="26">
+
+              <span class="tool-name">Canva</span>
+            </div>
+          </div>
+          <div class="tool-meter">
+            <span class="tool-dots">
+              <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-col">
+        <h3>Design</h3>
+        <ul>
+          <li>Visual design</li>
+          <li>Brand identity</li>
+          <li>Typography</li>
+          <li>Layout</li>
+          <li>Print design</li>
+          <li>Social media design</li>
+        </ul>
+      </div>
+
+      <div class="skill-col">
+        <h3>Creative</h3>
+        <ul>
+          <li>Creative direction</li>
+          <li>Concept development</li>
+          <li>Content strategy</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Professional</h3>
+        <ul>
+          <li>Leadership</li>
+          <li>Project management</li>
+          <li>Collaboration</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Languages</h3>
+
+        <div class="tool-item">
+          <div class="tool-top">
+            <div class="tool-left">
+              <span class="tool-name">Bangla</span>
+              <span class="tool-level-label">Native</span>
+            </div>
+          </div>
+          <div class="tool-meter lang-meter">
+            <span class="tool-dots">
+              <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span>
+            </span>
+          </div>
+        </div>
+
+        <div class="tool-item">
+          <div class="tool-top">
+            <div class="tool-left">
+              <span class="tool-name">English</span>
+              <span class="tool-level-label">B2–C1</span>
+            </div>
+          </div>
+          <div class="tool-meter lang-meter">
+            <span class="tool-dots">
+              <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="alt grid-ambient">
+  <div class="wrap">
+    <div class="contact-top">
+      <h2 id="contactHeadline">
+        <span class="scramble-line" data-text="Have an idea?"></span>
+        <span class="scramble-line" data-text="Let's make it visual."></span>
+      </h2>
+      <p>Open to design internships, freelance projects, and collaborations — school events, small businesses, or anything that needs a real visual identity.</p>
+    </div>
+    <div class="contact-links">
+
+      <a class="contact-link" href="mailto:3eingarafat@gmail.com" title="3eingarafat@gmail.com">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="var(--blue-soft)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/>
+          <path d="M3 6l9 7 9-7"/>
+        </svg>
+        <div class="cl-text"><strong>Email</strong><span>3eingarafat@gmail.com</span></div>
+      </a>
+
+      <a class="contact-link" href="https://wa.me/8801886602280" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <div class="cl-text"><strong>WhatsApp</strong><span>+880 1886-602280</span></div>
+      </a>
+
+      <a class="contact-link" href="https://instagram.com/_being_arafat" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="url(#ig-grad)" aria-hidden="true"><defs><linearGradient id="ig-grad" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:#f09433"/><stop offset="25%" style="stop-color:#e6683c"/><stop offset="50%" style="stop-color:#dc2743"/><stop offset="75%" style="stop-color:#cc2366"/><stop offset="100%" style="stop-color:#bc1888"/></linearGradient></defs><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        <div class="cl-text"><strong>Instagram</strong><span>@_being_arafat</span></div>
+      </a>
+
+      <a class="contact-link" href="https://facebook.com/GOJ00" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="#1877F2" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        <div class="cl-text"><strong>Facebook</strong><span>@GOJ00</span></div>
+      </a>
+
+      <a class="contact-link" href="https://discord.com/users/1513900670892376136" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="#5865F2" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057.1 18.08.11 18.1.127 18.11a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+        <div class="cl-text"><strong>Discord</strong><span>@_being_arafat</span></div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<footer class="grid-ambient">
+  <div class="wrap footer-row">
+    <span>© 2026 Arafat Rahman Rahi</span>
+    <span>Designed and built in Dhaka</span>
+  </div>
+</footer>
+
+<!-- ---------- CV PDF viewer modal ---------- -->
+<div class="pdf-modal" id="pdfModal" aria-hidden="true">
+  <div class="pdf-modal-backdrop" id="pdfModalBackdrop"></div>
+  <div class="pdf-modal-card">
+    <button class="pdf-close-btn" id="pdfBack" type="button" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <iframe id="pdfFrame" src="" title="Arafat Rahman Rahi — CV"></iframe>
+  </div>
+</div>
+
+<!-- ---------- selected work: template viewer modal ---------- -->
+<div class="tpl-modal" id="tplModal" aria-hidden="true">
+  <div class="tpl-modal-backdrop" id="tplModalBackdrop"></div>
+  <button class="tpl-close-btn" id="tplBackBtn" type="button" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+  <div class="tpl-modal-stage" id="tplStage">
+    <div class="tpl-slot tpl-slot-far" id="tplFarLeft"></div>
+    <div class="tpl-slot tpl-slot-near" id="tplNearLeft"></div>
+    <div class="tpl-frame-box" id="tplFrameBox">
+      <button class="tpl-nav tpl-nav-prev-img" id="tplPrevImg" aria-label="Previous image" type="button">‹</button>
+      <div class="tpl-main-frame" id="tplMainFrame">
+        <div class="tpl-layer" id="tplLayerA"></div>
+        <div class="tpl-layer" id="tplLayerB"></div>
+      </div>
+      <button class="tpl-nav tpl-nav-next-img" id="tplNextImg" aria-label="Next image" type="button">›</button>
+    </div>
+    <div class="tpl-slot tpl-slot-near" id="tplNearRight"></div>
+    <div class="tpl-slot tpl-slot-far" id="tplFarRight"></div>
+  </div>
+  <div class="tpl-caption">
+    <strong id="tplTitle"></strong>
+    <span id="tplCounter"></span>
+  </div>
+  <div class="tpl-hint">↑ ↓ projects &nbsp;·&nbsp; ← → images, then projects</div>
+</div>
+
+<script>
+  /* ---------- theme toggle (defaults to dark, remembers choice) ---------- */
+  (function(){
+    const root = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('arr-theme');
+    if(saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
+    toggle.addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('arr-theme', next);
+    });
+  })();
+
+  /* ---------- shared scramble-reveal effect (used by the hero + every section heading) ---------- */
+  const SCRAMBLE_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*_+-=/\\<>?';
+  const scrambleReduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function scrambleInto(el, finalText, opts){
+    opts = opts || {};
+    const speed = opts.speed || 28;
+    const reveal = opts.reveal || 2.6;
+    const chars = finalText.split('');
+    let frame = 0;
+    const totalFrames = Math.ceil(chars.length * reveal) + 10;
+    function tick(){
+      let out = '';
+      for(let i=0; i<chars.length; i++){
+        const lockFrame = i * reveal;
+        if(chars[i] === ' '){ out += '\u00A0'; continue; }
+        if(frame >= lockFrame + 8){ out += chars[i]; }
+        else if(frame >= lockFrame){ out += SCRAMBLE_CHARS[Math.floor(Math.random()*SCRAMBLE_CHARS.length)]; }
+        else { out += '\u00A0'; }
+      }
+      el.textContent = out;
+      frame++;
+      if(frame <= totalFrames){ requestAnimationFrame(() => setTimeout(tick, speed)); }
+      else { el.textContent = finalText; el.classList.add('done'); }
+    }
+    tick();
+  }
+
+  /* ---------- hero headline: resolves from scrambled characters ---------- */
+  (function(){
+    const lines = document.querySelectorAll('#heroHeadline .scramble-line');
+    lines.forEach((el) => {
+      const text = el.dataset.text;
+      if(scrambleReduceMotion){ el.textContent = text; el.classList.add('done'); return; }
+      // Same start delay for every line so all three resolve simultaneously
+      // instead of cascading one after another.
+      setTimeout(() => scrambleInto(el, text, { speed:26, reveal:2.4 }), 150);
+    });
+  })();
+
+  /* ---------- section headings: same scramble effect, triggered once on scroll into view ---------- */
+  (function(){
+    const headings = document.querySelectorAll('.scramble-heading');
+    if(!headings.length) return;
+    headings.forEach(h => { h.dataset.text = h.textContent.trim(); });
+    if(scrambleReduceMotion) return; // leave the real text in place
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          io.unobserve(entry.target);
+          scrambleInto(entry.target, entry.target.dataset.text, { speed:24, reveal:1.8 });
+        }
+      });
+    }, { threshold:0.4 });
+    headings.forEach(h => io.observe(h));
+  })();
+
+  /* ---------- contact headline: same two-line hero treatment, triggered on scroll into view ---------- */
+  (function(){
+    const lines = document.querySelectorAll('#contactHeadline .scramble-line');
+    if(!lines.length) return;
+    if(scrambleReduceMotion){
+      lines.forEach(el => { el.textContent = el.dataset.text; el.classList.add('done'); });
+      return;
+    }
+    const container = document.getElementById('contactHeadline');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          io.unobserve(container);
+          // Same start delay for every line so both resolve simultaneously.
+          lines.forEach((el) => scrambleInto(el, el.dataset.text, { speed:26, reveal:2.4 }));
+        }
+      });
+    }, { threshold:0.4 });
+    io.observe(container);
+  })();
+
+  /* ---------- typed role rotator (fixed pill height, no wrap) ---------- */
+  (function(){
+    const roles = ['Graphic Designer', 'Student Leader', 'RCY Volunteer', 'Event Director'];
+    const el = document.getElementById('typedRole');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) { el.textContent = roles[0]; return; }
+
+    let ri = 0, ci = 0, deleting = false;
+    function tick(){
+      const current = roles[ri];
+      if(!deleting){
+        ci++;
+        el.textContent = current.slice(0, ci);
+        if(ci === current.length){ deleting = true; setTimeout(tick, 1600); return; }
+      } else {
+        ci--;
+        el.textContent = current.slice(0, ci);
+        if(ci === 0){ deleting = false; ri = (ri + 1) % roles.length; }
+      }
+      setTimeout(tick, deleting ? 45 : 85);
+    }
+    tick();
+  })();
+
+  /* ---------- cursor: grid spotlight position + interactive dot ---------- */
+  const fineCursor = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const reduceMotionCursor = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (fineCursor && !reduceMotionCursor) {
+    const dot = document.getElementById('cursorDot');
+    const gridSections = document.querySelectorAll('.grid-ambient');
+    let targetX = window.innerWidth / 2, targetY = window.innerHeight / 2;
+    let glowX = targetX, glowY = targetY;
+
+    window.addEventListener('mousemove', (e) => {
+      targetX = e.clientX; targetY = e.clientY;
+      // The dot itself still tracks the cursor 1:1 for responsiveness...
+      dot.style.left = e.clientX + 'px';
+      dot.style.top = e.clientY + 'px';
+    }, { passive: true });
+
+    // ...while the grid glow eases toward it each frame, so its fade/trail
+    // reads as smooth instead of snapping frame-to-frame with the mouse.
+    // Each section is now its own containing block for its glow layer
+    // (see contain:paint), so we convert the eased viewport position into
+    // local coordinates per section rather than one shared global value.
+    (function followLoop(){
+      glowX += (targetX - glowX) * 0.12;
+      glowY += (targetY - glowY) * 0.12;
+      gridSections.forEach((sec) => {
+        const rect = sec.getBoundingClientRect();
+        // Skip sections nowhere near the viewport — cheap early-out.
+        if (rect.bottom < -200 || rect.top > window.innerHeight + 200) return;
+        sec.style.setProperty('--mx', (glowX - rect.left) + 'px');
+        sec.style.setProperty('--my', (glowY - rect.top) + 'px');
+      });
+      requestAnimationFrame(followLoop);
+    })();
+
+    document.querySelectorAll('a, button, .card, .contact-link').forEach((el) => {
+      el.addEventListener('mouseenter', () => dot.classList.add('hover'));
+      el.addEventListener('mouseleave', () => dot.classList.remove('hover'));
+    });
+  }
+
+  /* ---------- header goes solid after leaving hero ---------- */
+  const header = document.getElementById('siteHeader');
+  const hero = document.getElementById('home');
+  const headerIo = new IntersectionObserver(([entry]) => {
+    header.classList.toggle('solid', !entry.isIntersecting);
+  }, { threshold: 0.1 });
+  headerIo.observe(hero);
+
+  /* ---------- back to top ---------- */
+  (function(){
+    const btn = document.getElementById('backToTop');
+    let ticking = false;
+    function update(){
+      btn.classList.toggle('visible', window.scrollY > window.innerHeight * 0.6);
+      ticking = false;
+    }
+    window.addEventListener('scroll', () => {
+      if(!ticking){ requestAnimationFrame(update); ticking = true; }
+    }, { passive:true });
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top:0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    });
+  })();
+
+  /* ---------- mobile nav toggle ---------- */
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  const navOverlay = document.getElementById('navOverlay');
+  const navBackBtn = document.getElementById('navBackBtn');
+  function openNav(){ navLinks.classList.add('open'); navOverlay.classList.add('open'); }
+  function closeNav(){ navLinks.classList.remove('open'); navOverlay.classList.remove('open'); }
+  navToggle.addEventListener('click', () => { navLinks.classList.contains('open') ? closeNav() : openNav(); });
+  navBackBtn.addEventListener('click', closeNav);
+  navOverlay.addEventListener('click', closeNav);
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
+
+  /* ---------- CV PDF viewer modal ---------- */
+  (function(){
+    const PDF_SRC = 'Arafat_Rahman_CV.pdf'; // swap for your actual CV file once it sits alongside this HTML file
+    const modal = document.getElementById('pdfModal');
+    const backdrop = document.getElementById('pdfModalBackdrop');
+    const openBtn = document.getElementById('viewCvBtn');
+    const closeBtn = document.getElementById('pdfBack');
+    const frame = document.getElementById('pdfFrame');
+
+    function openPdf(){
+      frame.src = PDF_SRC;
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+    function closePdf(){
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden', 'true');
+      frame.src = '';
+      document.body.style.overflow = '';
+    }
+    openBtn.addEventListener('click', openPdf);
+    closeBtn.addEventListener('click', closePdf);
+    // Any negative space (the backdrop, or the modal itself) closes it.
+    document.addEventListener('click', (e) => {
+      if (!modal.classList.contains('open')) return;
+      if (e.target === modal || e.target === backdrop) closePdf();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('open')) closePdf();
+    });
+  })();
+
+  /* ---------- selected work: templates marquee + viewer ---------- */
+  (function(){
+    // Note: not every project is included here due to some private client work —
+    // everything listed below belongs to Arafat.
+    const ALL_TEMPLATES = [
+      { title: 'Rag Day T-shirt Design', tagline: 'T-shirt Design', images: ['91.png', 'T-Shirt_SSC_91.png', '1_Raw.jpeg', '9_Raw.jpg'] },
+      { title: 'TGHS Trivium Festival Logo', tagline: 'Logo', images: ['Trivium.png', 'Fest_Logo.png'] },
+      { title: 'TGHS Trivium Festival T-shirt Design', tagline: 'T-shirt Design', images: ['TGHSTF_T-shirt.png', 'TGHSTF_T-shirt_Golden.png'] },
+      { title: 'TGHS Trivium Festival Note Book', tagline: 'Cover', images: ['TGHSTF_Notebook.png', 'TGHSTF_Notebook_Back.png'] },
+      { title: 'TGHS Trivium Festival Registration Form', tagline: 'Form', images: ['TGHSTF_Form.png'] },
+      { title: 'TGHS Red Crescent Youth Registration Form', tagline: 'Form', images: ['TGHSRCY_Form_2026.png'] },
+      { title: 'TGHS Arts and Crafts Club Registration Form', tagline: 'Form', images: ['TGHSACC_Form_2026.png'] },
+      { title: 'Social Media Post', tagline: 'Post', images: ['Jete_Hobe_Bohudur.png'] },
+      { title: 'Social Media Post', tagline: 'Post', images: ['Axolotl Regeneration.png'] },
+      { title: 'Social Media Post', tagline: 'Post', images: ['The Roche Limit.png'] }
+    ];
+
+    let TEMPLATES = ALL_TEMPLATES; // the viewer cycles through the clicked row only
+    const PDF_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>';
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function isPdf(src){ return /\.pdf$/i.test(src); }
+    function mediaMarkup(src, title){
+      return isPdf(src) ? '<iframe src="' + src + '" title="' + title + '"></iframe>' : '<img src="' + src + '" alt="' + title + '">';
+    }
+    function thumbMarkup(item){
+      const src = item.images[0];
+      if (isPdf(src)) return '<div class="tpl-pdf-thumb">' + PDF_ICON + '<span>PDF</span></div>';
+      return '<img src="' + src + '" alt="' + item.title + '" loading="lazy">';
+    }
+
+    // ---- category rows: one auto-scrolling marquee per category (alternating direction) ----
+    const ROWS = [
+      { label: 'Social Media Posts', tags: ['Post'] },
+      { label: 'T-shirt Designs', tags: ['T-shirt Design'] },
+      { label: 'Forms', tags: ['Form'] },
+      { label: 'Logo & Cover', tags: ['Logo', 'Cover'] }
+    ];
+    const rowsEl = document.getElementById('workRows');
+    const marquees = [];
+    ROWS.forEach((row, ri) => {
+      const list = ALL_TEMPLATES.filter((t) => row.tags.indexOf(t.tagline) !== -1);
+      if (!list.length) return;
+      // Repeat the list until one half of the track is wider than the widest
+      // container, then double it, so the -50% loop is seamless even for short rows.
+      const reps = Math.max(1, Math.ceil(1500 / (list.length * 366)));
+      const half = [];
+      for (let r = 0; r < reps; r++) list.forEach((item, i) => half.push({ item: item, i: i }));
+      const seq = half.concat(half);
+
+      const sec = document.createElement('div');
+      sec.className = 'work-row';
+      sec.innerHTML =
+        '<div class="work-row-head"><h3>' + row.label.replace('&', '&amp;') + '<span>' + String(list.length).padStart(2, '0') + '</span></h3></div>' +
+        '<div class="row-marquee"><div class="row-track' + (ri % 2 ? ' reverse' : '') + '">' +
+        seq.map((o) =>
+          '<div class="tpl-item" data-index="' + o.i + '">' + thumbMarkup(o.item) + '<span class="tpl-tagline">' + o.item.title + '</span></div>'
+        ).join('') + '</div></div>';
+      rowsEl.appendChild(sec);
+
+      const marquee = sec.querySelector('.row-marquee');
+      const track = sec.querySelector('.row-track');
+      function setSpeed(){ track.style.animationDuration = Math.max(18, (track.scrollWidth / 2) / 45) + 's'; }
+      setSpeed();
+      window.addEventListener('resize', setSpeed);
+      track.addEventListener('mouseover', (e) => { if (e.target.closest('.tpl-item')) track.classList.add('paused'); });
+      track.addEventListener('mouseout', (e) => { if (e.target.closest('.tpl-item')) track.classList.remove('paused'); });
+      track.addEventListener('click', (e) => {
+        const el = e.target.closest('.tpl-item');
+        if (el) openViewer(parseInt(el.dataset.index, 10), el, list);
+      });
+      marquees.push({ marquee: marquee, items: Array.from(track.querySelectorAll('.tpl-item')) });
+    });
+
+    // Center of each row = maximum size; toward the faded edges = minimum size.
+    if (!reduceMotion) {
+      (function scaleLoop(){
+        marquees.forEach((m) => {
+          const rect = m.marquee.getBoundingClientRect();
+          if (rect.width === 0 || rect.bottom < -100 || rect.top > window.innerHeight + 100) return;
+          const centerX = rect.left + rect.width / 2;
+          const half = rect.width / 2;
+          m.items.forEach((item) => {
+            const r = item.getBoundingClientRect();
+            const t = Math.max(0, 1 - Math.abs(r.left + r.width / 2 - centerX) / half);
+            item.style.transform = 'scale(' + (0.72 + t * 0.28).toFixed(3) + ')';
+            item.style.opacity = (0.06 + t * 0.94).toFixed(3);
+          });
+        });
+        requestAnimationFrame(scaleLoop);
+      })();
+    }
+
+    // ---- viewer modal ----
+    const modal = document.getElementById('tplModal');
+    const stage = document.getElementById('tplStage');
+    const frameBox = document.getElementById('tplFrameBox');
+    const mainFrame = document.getElementById('tplMainFrame');
+    const layerA = document.getElementById('tplLayerA');
+    const layerB = document.getElementById('tplLayerB');
+    const titleEl = document.getElementById('tplTitle');
+    const counterEl = document.getElementById('tplCounter');
+    const prevImgBtn = document.getElementById('tplPrevImg');
+    const nextImgBtn = document.getElementById('tplNextImg');
+    const farLeft = document.getElementById('tplFarLeft');
+    const nearLeft = document.getElementById('tplNearLeft');
+    const nearRight = document.getElementById('tplNearRight');
+    const farRight = document.getElementById('tplFarRight');
+    // Fixed visual roles, always at the same delta from whatever project is
+    // currently centered — the coverflow "shelf" itself never moves; only the
+    // content inside each slot changes, and the FLIP transform (below) is what
+    // sells the sliding motion between them.
+    const SLOT_ROLES = [
+      { el: farLeft,  delta: -2 },
+      { el: nearLeft, delta: -1 },
+      { el: frameBox, delta: 0 },
+      { el: nearRight, delta: 1 },
+      { el: farRight,  delta: 2 }
+    ];
+
+    let curTpl = 0, curImg = 0, activeLayerKey = 'a', originRect = null, animatingSwap = false;
+
+    function slotMarkup(item){
+      const src = item.images[0];
+      const inner = isPdf(src) ? '<div class="tpl-pdf-thumb">' + PDF_ICON + '</div>' : '<img src="' + src + '" alt="' + item.title + '">';
+      return '<div class="tpl-slot-inner">' + inner + '<span class="tpl-slot-label">' + item.title + '</span></div>';
+    }
+    function renderSides(){
+      const n = TEMPLATES.length;
+      farLeft.innerHTML = slotMarkup(TEMPLATES[(curTpl - 2 + n) % n]);
+      nearLeft.innerHTML = slotMarkup(TEMPLATES[(curTpl - 1 + n) % n]);
+      nearRight.innerHTML = slotMarkup(TEMPLATES[(curTpl + 1) % n]);
+      farRight.innerHTML = slotMarkup(TEMPLATES[(curTpl + 2) % n]);
+    }
+    function updateMeta(){
+      const item = TEMPLATES[curTpl];
+      titleEl.textContent = item.title + ' — ' + item.tagline;
+      counterEl.textContent = (curImg + 1) + ' / ' + item.images.length;
+    }
+
+    // Sets a layer's content directly as the visible, active one — used on first
+    // open, with no animated entrance of its own.
+    function setActiveInstant(src, title){
+      const front = activeLayerKey === 'a' ? layerA : layerB;
+      const back = activeLayerKey === 'a' ? layerB : layerA;
+      front.innerHTML = mediaMarkup(src, title);
+      front.className = 'tpl-layer tpl-layer-active';
+      back.innerHTML = '';
+      back.className = 'tpl-layer';
+    }
+
+    // Brings the next image in from behind the current one (small, faded, low z)
+    // and pushes the current one slightly forward as it fades — like flipping a
+    // page. Used for switching between images within the SAME project.
+    function crossfadeTo(src, title){
+      const front = activeLayerKey === 'a' ? layerA : layerB;
+      const back = activeLayerKey === 'a' ? layerB : layerA;
+      back.innerHTML = mediaMarkup(src, title);
+      back.className = 'tpl-layer';
+      void back.offsetWidth; // force reflow so the transition below actually runs
+      requestAnimationFrame(() => {
+        back.className = 'tpl-layer tpl-layer-active';
+        front.className = 'tpl-layer tpl-layer-exit';
+      });
+      activeLayerKey = activeLayerKey === 'a' ? 'b' : 'a';
+      setTimeout(() => { front.innerHTML = ''; front.className = 'tpl-layer'; }, 460);
+    }
+
+    // Instagram-story-style directional slide is no longer used for project
+    // switching (replaced by the coverflow FLIP swap below), but stays here
+    // for image-to-image navigation styling reference — removed to avoid dead code.
+
+    function nextImg(){
+      const item = TEMPLATES[curTpl];
+      curImg = (curImg + 1) % item.images.length;
+      if (reduceMotion) setActiveInstant(item.images[curImg], item.title);
+      else crossfadeTo(item.images[curImg], item.title);
+      updateMeta();
+    }
+    function prevImg(){
+      const item = TEMPLATES[curTpl];
+      curImg = (curImg - 1 + item.images.length) % item.images.length;
+      if (reduceMotion) setActiveInstant(item.images[curImg], item.title);
+      else crossfadeTo(item.images[curImg], item.title);
+      updateMeta();
+    }
+
+    // ---- coverflow project switch (real slide+scale, not a fade) ----
+    // The five slots (far-left, near-left, center, near-right, far-right)
+    // stay fixed in place — only their content changes. To make it read as a
+    // genuine slide, each slot's new content is given a starting transform
+    // (via FLIP: measure old rects, diff against the new fixed rect) equal to
+    // wherever the "future" content used to sit before the shift. So the
+    // incoming center design visibly grows in from where it was small on the
+    // side, and the outgoing center shrinks away to the side it's heading to.
+    function getRect(el){
+      if (!el || el.offsetParent === null) return null;
+      const r = el.getBoundingClientRect();
+      if (r.width === 0 || r.height === 0) return null;
+      return r;
+    }
+    function synthOffscreenRect(side){
+      const stageRect = stage.getBoundingClientRect();
+      const w = 60, h = 40;
+      const x = side === 'right' ? stageRect.right + 30 : stageRect.left - 30 - w;
+      const y = stageRect.top + stageRect.height / 2 - h / 2;
+      return { left: x, top: y, width: w, height: h };
+    }
+    function flipSlotFrom(el, fromRect){
+      if (!el) return;
+      const toRect = el.getBoundingClientRect();
+      if (!fromRect || toRect.width === 0 || toRect.height === 0) return;
+      const scaleX = fromRect.width / toRect.width;
+      const scaleY = fromRect.height / toRect.height;
+      const dx = (fromRect.left + fromRect.width / 2) - (toRect.left + toRect.width / 2);
+      const dy = (fromRect.top + fromRect.height / 2) - (toRect.top + toRect.height / 2);
+      el.style.transition = 'none';
+      el.style.opacity = '0.5';
+      el.style.transform = 'translate(' + dx + 'px,' + dy + 'px) scale(' + scaleX + ',' + scaleY + ')';
+      void el.offsetWidth; // force reflow so the transition below actually runs
+      requestAnimationFrame(() => {
+        el.style.transition = 'transform 0.95s cubic-bezier(.22,1,.36,1), opacity 0.75s ease';
+        el.style.transform = 'translate(0,0) scale(1,1)';
+        el.style.opacity = '';
+      });
+      setTimeout(() => { el.style.transition = ''; el.style.transform = ''; }, 1000);
+    }
+
+    function goTo(steps, landOnLastImage){
+      if (animatingSwap) return;
+      animatingSwap = true;
+      const n = TEMPLATES.length;
+
+      // 1. Capture every visible slot's current rect, keyed by its (old) delta.
+      const oldRectByDelta = {};
+      SLOT_ROLES.forEach((r) => { oldRectByDelta[r.delta] = getRect(r.el); });
+
+      // 2. Advance state and repaint content into the fixed slots.
+      curTpl = ((curTpl + steps) % n + n) % n;
+      const newItem = TEMPLATES[curTpl];
+      curImg = landOnLastImage ? newItem.images.length - 1 : 0;
+      activeLayerKey = 'a';
+      renderSides();
+      setActiveInstant(newItem.images[curImg], newItem.title);
+      updateMeta();
+
+      if (reduceMotion) { animatingSwap = false; return; }
+
+      // 3. Each slot's new content "used to be" at old-delta = new-delta + steps.
+      //    If that old slot didn't exist (out of the visible ±2 range), treat it
+      //    as arriving from just off-screen on the appropriate side.
+      SLOT_ROLES.forEach((r) => {
+        const neededOldDelta = r.delta + steps;
+        let fromRect = oldRectByDelta[neededOldDelta];
+        if (!fromRect) fromRect = synthOffscreenRect(neededOldDelta > 0 ? 'right' : 'left');
+        flipSlotFrom(r.el, fromRect);
+      });
+
+      setTimeout(() => { animatingSwap = false; }, 960);
+    }
+    function nextTpl(){ goTo(1); }
+    function prevTpl(){ goTo(-1); }
+
+    // Left/right arrow keys always work: while the current template has more
+    // images left in that direction, they step through those images; once
+    // there's nothing left, the same key rolls over into the next/previous
+    // template (landing on its first image going forward, its last image
+    // going backward, so backward paging feels continuous).
+    function arrowRight(){
+      const item = TEMPLATES[curTpl];
+      if (curImg < item.images.length - 1) nextImg();
+      else goTo(1);
+    }
+    function arrowLeft(){
+      const item = TEMPLATES[curTpl];
+      if (curImg > 0) prevImg();
+      else goTo(-1, true);
+    }
+
+    // FLIP-style open: the invisible frame box starts sized/positioned exactly
+    // over the clicked tile, then animates to its full size, so the design
+    // visibly "grows" out of where it was clicked. The rest of the modal
+    // (sides, close button, caption) simply fades in via the modal's own
+    // opacity transition.
+    function flipFrom(rect){
+      const endRect = frameBox.getBoundingClientRect();
+      const scaleX = rect.width / endRect.width;
+      const scaleY = rect.height / endRect.height;
+      const dx = (rect.left + rect.width / 2) - (endRect.left + endRect.width / 2);
+      const dy = (rect.top + rect.height / 2) - (endRect.top + endRect.height / 2);
+      frameBox.style.transition = 'none';
+      frameBox.style.transform = 'translate(' + dx + 'px,' + dy + 'px) scale(' + scaleX + ',' + scaleY + ')';
+      void frameBox.offsetWidth;
+      requestAnimationFrame(() => {
+        frameBox.style.transition = 'transform 0.55s cubic-bezier(.16,1,.3,1)';
+        frameBox.style.transform = 'translate(0,0) scale(1,1)';
+      });
+    }
+    function flipTo(rect, onDone){
+      const endRect = frameBox.getBoundingClientRect();
+      const scaleX = rect.width / endRect.width;
+      const scaleY = rect.height / endRect.height;
+      const dx = (rect.left + rect.width / 2) - (endRect.left + endRect.width / 2);
+      const dy = (rect.top + rect.height / 2) - (endRect.top + endRect.height / 2);
+      frameBox.style.transition = 'transform 0.4s cubic-bezier(.4,0,.2,1)';
+      frameBox.style.transform = 'translate(' + dx + 'px,' + dy + 'px) scale(' + scaleX + ',' + scaleY + ')';
+      setTimeout(onDone, reduceMotion ? 0 : 380);
+    }
+
+    function openViewer(idx, sourceEl, list){
+      TEMPLATES = list || ALL_TEMPLATES;
+      curTpl = idx; curImg = 0; activeLayerKey = 'a';
+      setActiveInstant(TEMPLATES[curTpl].images[0], TEMPLATES[curTpl].title);
+      updateMeta();
+      renderSides();
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      if (!reduceMotion && sourceEl) {
+        originRect = sourceEl.getBoundingClientRect();
+        requestAnimationFrame(() => flipFrom(originRect));
+      } else {
+        originRect = null;
+      }
+    }
+    function closeViewer(){
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      const finish = () => {
+        modal.classList.remove('open');
+        layerA.innerHTML = ''; layerB.innerHTML = '';
+        frameBox.style.transition = 'none';
+        frameBox.style.transform = '';
+      };
+      if (!reduceMotion && originRect) {
+        flipTo(originRect, finish);
+      } else {
+        modal.classList.remove('open');
+        setTimeout(finish, 300);
+      }
+    }
+
+    document.getElementById('tplBackBtn').addEventListener('click', closeViewer);
+    prevImgBtn.addEventListener('click', arrowLeft);
+    nextImgBtn.addEventListener('click', arrowRight);
+    // Clicking a slot jumps straight to that project, sliding through however
+    // many steps separate it from the current center.
+    nearLeft.addEventListener('click', () => goTo(-1));
+    nearRight.addEventListener('click', () => goTo(1));
+    farLeft.addEventListener('click', () => goTo(-2));
+    farRight.addEventListener('click', () => goTo(2));
+
+    // Touch swipe on the stage — same slide+scale motion as clicking a slot,
+    // so the "real swap" feel carries over to mobile where the side previews
+    // are hidden.
+    let touchStartX = 0, touchStartY = 0, touchActive = false;
+    stage.addEventListener('touchstart', (e) => {
+      if (!modal.classList.contains('open')) return;
+      const t = e.changedTouches[0];
+      touchStartX = t.clientX; touchStartY = t.clientY; touchActive = true;
+    }, { passive: true });
+    stage.addEventListener('touchend', (e) => {
+      if (!touchActive) return;
+      touchActive = false;
+      const t = e.changedTouches[0];
+      const dx = t.clientX - touchStartX;
+      const dy = t.clientY - touchStartY;
+      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.4) {
+        if (dx < 0) nextTpl(); else prevTpl();
+      }
+    }, { passive: true });
+
+    // Strictly close on any negative space: the backdrop, the stage's own
+    // empty padding, the empty area around the frame box, or the letterbox
+    // gap around an image inside it — anywhere that isn't an actual button,
+    // image, or side preview.
+    const negativeSpaceEls = [modal, document.getElementById('tplModalBackdrop'), stage, frameBox, layerA, layerB];
+    document.addEventListener('click', (e) => {
+      if (!modal.classList.contains('open')) return;
+      if (negativeSpaceEls.includes(e.target)) closeViewer();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (!modal.classList.contains('open')) return;
+      if (e.key === 'ArrowLeft') arrowLeft();
+      else if (e.key === 'ArrowRight') arrowRight();
+      else if (e.key === 'ArrowUp') { e.preventDefault(); prevTpl(); }
+      else if (e.key === 'ArrowDown') { e.preventDefault(); nextTpl(); }
+      else if (e.key === 'Escape') closeViewer();
+    });
+  })();
+</script>
+
+</body>
+</html>
