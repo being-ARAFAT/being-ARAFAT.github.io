@@ -400,8 +400,8 @@
   .work-row-head h3 span{ font-family:'IBM Plex Mono',monospace; font-size:0.74rem; color:var(--text-dim); font-weight:400; }
   .row-marquee{
     overflow:hidden; width:100%;
-    -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.35) 6%,#000 20%,#000 80%,rgba(0,0,0,0.35) 94%,transparent 100%);
-    mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.35) 6%,#000 20%,#000 80%,rgba(0,0,0,0.35) 94%,transparent 100%);
+    -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.35) 3%,#000 10%,#000 90%,rgba(0,0,0,0.35) 97%,transparent 100%);
+    mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.35) 3%,#000 10%,#000 90%,rgba(0,0,0,0.35) 97%,transparent 100%);
   }
   .row-track{ display:flex; align-items:center; gap:26px; width:max-content; padding:30px 0 34px; animation:tpl-scroll 40s linear infinite; }
   .row-track.reverse{ animation-direction:reverse; }
@@ -791,11 +791,11 @@
 <section id="work" class="alt grid-ambient">
   <div class="wrap">
     <div class="section-head">
-      <h2 class="scramble-heading">Selected work</h2>
+      <h2 class="scramble-heading">Selected works</h2>
       <p>A short list, on purpose — real projects for a real school community. Not every project is shown here due to some private client work; everything included belongs to me.</p>
     </div>
   </div>
-  <div class="wrap"><div class="work-rows" id="workRows"></div></div>
+  <div class="work-rows" id="workRows"></div>
 </section>
 
 <section id="case" class="grid-ambient">
@@ -1341,8 +1341,8 @@
       const list = ALL_TEMPLATES.filter((t) => row.tags.indexOf(t.tagline) !== -1);
       if (!list.length) return;
       // Repeat the list until one half of the track is wider than the widest
-      // container, then double it, so the -50% loop is seamless even for short rows.
-      const reps = Math.max(1, Math.ceil(1500 / (list.length * 366)));
+      // screen, then double it, so the -50% loop is seamless even for short rows.
+      const reps = Math.max(1, Math.ceil(2800 / (list.length * 366)));
       const half = [];
       for (let r = 0; r < reps; r++) list.forEach((item, i) => half.push({ item: item, i: i }));
       const seq = half.concat(half);
@@ -1350,7 +1350,7 @@
       const sec = document.createElement('div');
       sec.className = 'work-row';
       sec.innerHTML =
-        '<div class="work-row-head"><h3>' + row.label.replace('&', '&amp;') + '<span>' + String(list.length).padStart(2, '0') + '</span></h3></div>' +
+        '<div class="wrap"><div class="work-row-head"><h3>' + row.label.replace('&', '&amp;') + '<span>' + String(list.length).padStart(2, '0') + '</span></h3></div></div>' +
         '<div class="row-marquee"><div class="row-track' + (ri % 2 ? ' reverse' : '') + '">' +
         seq.map((o) =>
           '<div class="tpl-item" data-index="' + o.i + '">' + thumbMarkup(o.item) + '<span class="tpl-tagline">' + o.item.title + '</span></div>'
